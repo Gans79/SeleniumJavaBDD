@@ -24,7 +24,7 @@ Feature: Home page
       | com/travel/flights | Suggested trips from Sydney |  Explore Destinations |
 
 
-  @home_page
+  @home_page @search
   Scenario Outline: Search Flights
     Given A user navigates to HomePage "<tab>"
     And user enters from "<fromLocation>" and to "<toLocation>"
