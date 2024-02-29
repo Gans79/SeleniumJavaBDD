@@ -90,25 +90,9 @@ public class HomePage extends BasePage{
 
     void enterFromandTo(String fromLoc, String toLoc) {
 
-      //  this.toInput.click();
-      //  this.toInput.clear();
-      //  this.toInput.sendKeys(toLoc);
-      //  this.toInput.sendKeys(Keys.ENTER);
-      //  this.image.click();
         this.fromInput.clear();
         this.fromInput.sendKeys(fromLoc);
         this.fromInput.sendKeys(Keys.ENTER);
-      //  this.image.click();
-
-
-        //   this.departureInput.click();
-       //   this.departureDate.click();
-       //   this.returnDate.click();
-        //  this.doneButton.click();
-        //  this.searchButton.click();
-      //    wait.forElementToBeDisplayed(10, this.lowerLeft, "Lower Left");
-
-
 
     }
 

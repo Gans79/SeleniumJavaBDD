@@ -14,8 +14,6 @@ public class SearchResultPage extends BasePage {
 
     private static final String RESULTS_TITLE_SELECTOR = "a h3";
 
-   // @FindBy(css = RESULTS_TITLE_SELECTOR)
-   // private List<WebElement> results;
 
     @FindBy(xpath = "//div[contains(text(), 'About these results')]")
     private WebElement resultsInfo;

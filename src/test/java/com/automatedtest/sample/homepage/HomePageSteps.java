@@ -53,8 +53,7 @@ public class HomePageSteps {
         System.out.println(displayedTitle);
 
         Assert.assertTrue(title.equals(displayedTitle));
-       // Assert.assertTrue("Displayed title is " + displayedTitle + " instead of " + title,
-       //         title.equals(displayedTitle));
+
     }
 
     @When("^a user searches for \"([^\"]*)\"$")
