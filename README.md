@@ -4,7 +4,6 @@ This project is an example of UI automated functional test for Google travel fli
 
 Test scenarios are described in the feature files located here ./src/test/resources/com/automatedtest/sample.
 
-For more info about this project, read the article ["UI automated test project example with Selenium, Cucumber and Java"](https://medium.com/@lucie.duchemin/ui-automated-test-project-example-with-selenium-cucumber-and-java-b33788bd11c4)
 
 ## Installation ##
 
